@@ -1,0 +1,14 @@
+# Description of Tags Used:
+<!DOCTYPE html>: Declares the document type and version of HTML.
+<html>: The root element of the HTML document.
+<head>: Contains metadata, links to stylesheets, and the title of the document.
+<title>: Sets the title of the page shown in the browser tab.
+<meta>: Provides metadata about the HTML document (like character set and viewport).
+<body>: Contains the content of the document.
+<header>, <nav>, <main>, <section>, <footer>: Semantic elements that define different parts of the document.
+<h1>, <h2>, <h3>: Heading tags for content hierarchy.
+<p>: Paragraph tag.
+<ul>, <ol>, <li>: Unordered and ordered list elements.
+<a>: Anchor tag for hyperlinks.
+<img>: Image tag for displaying images.
+<form>, <input>, <label>: Form elements for user input.
