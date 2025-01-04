@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*Poppins Link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --bg-color: #f5f5f5;
+    --primary-color: #007BFF;
+    --secondary-color: #343a40;
+    --accent-color: #ffd700;
+    --text-color: #212529;
+    --btn-primary: #e07BFF;
+    --btn-hover: #0056b3;
+    --btn-radius: 5px;
+    --btn-text: #fff;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--bg-color);
+}
+
+nav {
+    background-color: var(--primary-color);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: var(--secondary-color);
+    text-decoration: underline;
+    transition: 3s ease all;
+}
+
+/*Main Home*/
+#home {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px 0;
+}
+
+.left h2 {
+    color: var(--primary-color);
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.left p {
+    color: var(--primary-color);
+    font-size: 40px;
+}
+
+#about {
+    background-color: var(--primary-color);
+    height: 60vh;
+    align-items: center;
+    padding: 30px;
+}
+
+.main_about {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.left_about img {
+    width: 300px;
+    height: 300px;
+}
+
+.right_about h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    color: var(--text-color);
+    padding-bottom: .5rem;
+}
+
+#skills{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+#skills h2 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.range_bar .box1{
+    width: 60%;
+    height: 3rem;
+    background-color: var(--primary-color);
+}
+
+
+/* Footer - Style */
+footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 0 5px;
+}
+
+footer a:hover{
+    transition: 3s ease all;
+    color: var(--accent-color);
+}
+
+#contact {
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    color: var(--primary-color);
+}
+
+#contact h2 {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+}
+#contact input {
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 0;
+    border-bottom: 2px solid var(--primary-color);
+    margin: .5rem 0;
+}
+
+button {
+    background-color: var(--btn-primary);
+    color: var(--primary-color);
+    border-radius: var(--btn-radius);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+}
+#contact button:hover {
+    background-color: var(--btn-hover);
+    color: var(--text-color);
+    transition: 3s ease all;
+}
+
+#social_links i{
+    margin-right: 5px;
+}
+
+#social_links a{
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+#projects {
+    padding: 30px;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project_top  {
+    border: 2px solid var(--secondary-color);
+    margin: 0 10px;
+}
+
+.project_top  h3{
+    border-bottom: 2px solid var(--secondary-color);
+    text-align: center;
+}
+
+.project_top img{
+    margin: 5px;
+    width: 170px;
+    height: 170px;
+}
+
